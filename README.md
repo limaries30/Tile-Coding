@@ -1,6 +1,8 @@
-## Tile Coding for Mountain Car
+## Solving Mountain Car with Tile Coding
 
-### Example
+Linear function approixmation with Q-leanring
+
+### Tile Coding Example
 ```python
 env = gym.make('MountainCar-v0')
 
@@ -15,3 +17,8 @@ tileCoder = TileCoder(features,num_tiles,width,offset,env)
 
 encoded_state = tileCoder.get_one_hot_tiles(state,action)
 ```
+
+### Stacks
+
+- Ray
+- Numpy
